@@ -1,4 +1,4 @@
-package by.gsu.epamlab;
+package by.gsu.epamlab.cargotransportation;
 
 public abstract class StandardCargoTransportation extends AbstractCargoTransportation {
     private double carcaseMass;

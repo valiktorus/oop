@@ -1,7 +1,7 @@
 package by.gsu.epamlab.cargo;
 
 public enum LiquidMaterial {
-    WATER(1000.0), PETROL(900.0), GASOLINE(700.0), PARRAFFIN(800.0);
+    WATER(1000.0), PETROL(900.0), GASOLINE(700.0), PARAFFIN(800.0);
     private final double density;
 
     LiquidMaterial(double density) {

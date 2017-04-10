@@ -1,4 +1,4 @@
-package by.gsu.epamlab;
+package by.gsu.epamlab.cargotransportation;
 
 import by.gsu.epamlab.cargo.HardCargo;
 
@@ -15,7 +15,7 @@ public class ContainerCargoTransportation extends StandardCargoTransportation {
     }
 
     @Override
-    public double getFinalMass() {
+    public double getMass() {
         return cargo.getMass() + getCarcaseMass();
     }
 

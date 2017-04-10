@@ -1,4 +1,4 @@
-package by.gsu.epamlab;
+package by.gsu.epamlab.cargotransportation;
 
 import by.gsu.epamlab.cargo.AbstractCargo;
 
@@ -12,7 +12,7 @@ public class PlatformCargoTransportation extends AbstractCargoTransportation{
     }
 
     @Override
-    public double getFinalMass() {
+    public double getMass() {
         double result = 0;
         for (AbstractCargo cargo: cargos) {
             result += cargo.getMass();

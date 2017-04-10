@@ -1,4 +1,6 @@
-package by.gsu.epamlab;
+package by.gsu.epamlab.cargotransportation;
+
+import by.gsu.epamlab.Transportable;
 
 import java.util.Comparator;
 

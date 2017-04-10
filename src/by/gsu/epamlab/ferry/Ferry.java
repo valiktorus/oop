@@ -1,4 +1,6 @@
-package by.gsu.epamlab;
+package by.gsu.epamlab.ferry;
+
+import by.gsu.epamlab.Transportable;
 
 public class Ferry {
     private double carryingCapacity;
@@ -20,7 +22,7 @@ public class Ferry {
     public double getTotalMass(){
         double totalMass = 0;
         for (Transportable transportable: transportables) {
-            totalMass += transportable.getFinalMass();
+            totalMass += transportable.getMass();
         }
         return totalMass;
     }

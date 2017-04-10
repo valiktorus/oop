@@ -1,4 +1,6 @@
-package by.gsu.epamlab;
+package by.gsu.epamlab.passenger;
+
+import by.gsu.epamlab.Transportable;
 
 public class Passenger implements Transportable {
     private String name;
@@ -14,7 +16,7 @@ public class Passenger implements Transportable {
     }
 
     @Override
-    public double getFinalMass() {
+    public double getMass() {
         return mass;
     }
 

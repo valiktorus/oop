@@ -1,4 +1,4 @@
-package by.gsu.epamlab;
+package by.gsu.epamlab.cargotransportation;
 
 import by.gsu.epamlab.cargo.LiquidCargo;
 
@@ -19,7 +19,7 @@ public class CisternCargoTransportation extends StandardCargoTransportation {
     }
 
     @Override
-    public double getFinalMass() {
+    public double getMass() {
         return cargo.getMass() + getCarcaseMass();
     }
 
