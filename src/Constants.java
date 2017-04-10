@@ -62,4 +62,6 @@ public class Constants {
     public static final Passenger SECOND_PASSENGER = new Passenger(PassengerConstants.SECOND_PASSENGER_NAME, PassengerConstants.SECOND_PASSENGER_MASS);
     public static final Passenger THIRD_PASSENGER = new Passenger(PassengerConstants.THIRD_PASSENGER_NAME, PassengerConstants.THIRD_PASSENGER_MASS);
 
+    public static final double CARRYING_CAPACITY = 50000000.0;
+
 }

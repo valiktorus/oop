@@ -1,12 +1,11 @@
 import by.gsu.epamlab.Ferry;
 import by.gsu.epamlab.FerryComparator;
-import by.gsu.epamlab.Transportable;
 
 import java.util.Arrays;
 
 public class Runner {
     public static void main(String[] args) {
-        Ferry ferry = new Ferry(50000000.0,
+        Ferry ferry = new Ferry(Constants.CARRYING_CAPACITY,
                 Constants.WATER_CISTERN_CARGO,
                 Constants.GASOLINE_CISTERN_CARGO,
                 Constants.PETROL_CISTERN_CARGO,
