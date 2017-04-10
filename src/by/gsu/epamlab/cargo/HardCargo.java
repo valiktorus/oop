@@ -13,8 +13,8 @@ public class HardCargo extends AbstractCargo {
     }
 
     @Override
-    public double getMass() {
-        return material.getDensity() * getVolume();
+    public double getDensity() {
+        return material.getDensity();
     }
 
     @Override

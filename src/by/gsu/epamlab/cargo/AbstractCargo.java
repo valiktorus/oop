@@ -16,7 +16,11 @@ public abstract class AbstractCargo {
         return volume;
     }
 
-    public abstract double getMass();
+    public double getMass(){
+        return volume * getDensity();
+    }
+
+    public abstract double getDensity();
 
     protected abstract String fieldsToString();
 
