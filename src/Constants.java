@@ -50,11 +50,8 @@ public class Constants {
     public static final Cargo PETROL_CISTERN_CARGO = new CisternCargo(CisternCargoConstants.BIG_CISTERN_CARGO_CARCASE_MASS, CisternCargoConstants.BIG_CISTERN_CARGO_VOLUME, LiquidMaterial.GASOLINE);
     public static final Cargo IRON_CONTAINER_CARGO = new ContainerCargo(ContainerCargoConstants.BIG_CONTAINER_CARGO_CARCASE_MASS, ContainerCargoConstants.BIG_CONTAINER_CARGO_VOLUME, HardMaterial.IRON);
     public static final Cargo COAL_CONTAINER_CARGO = new ContainerCargo(ContainerCargoConstants.MEDIUM_CONTAINER_CARGO_CARCASE_MASS, ContainerCargoConstants.BIG_CONTAINER_CARGO_VOLUME, HardMaterial.COAL);
-
     public static final Cargo COOPER_CONTAINER_CARGO = new ContainerCargo(ContainerCargoConstants.SMALL_CONTAINER_CARGO_CARCASE_MASS,ContainerCargoConstants.BIG_CONTAINER_CARGO_VOLUME, HardMaterial.COOPER);
-
     public static final  Cargo FIRST_PLATFORM_CARGO = new PlatformCargo(PlatformCargoConstants.BIG_ITEM_MASS);
-
     public static final PassengerImpl FIRST_PASSENGER_IMPL = new PassengerImpl(PassengerConstants.FIRST_PASSENGER_NAME, PassengerConstants.FIRST_PASSENGER_MASS);
     public static final PassengerImpl SECOND_PASSENGER_IMPL = new PassengerImpl(PassengerConstants.SECOND_PASSENGER_NAME, PassengerConstants.SECOND_PASSENGER_MASS);
     public static final PassengerImpl THIRD_PASSENGER_IMPL = new PassengerImpl(PassengerConstants.THIRD_PASSENGER_NAME, PassengerConstants.THIRD_PASSENGER_MASS);
