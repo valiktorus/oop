@@ -17,8 +17,6 @@ public class Constants {
         public static final double BIG_CISTERN_CARGO_CARCASE_MASS = 3000;
     }
     public class ContainerCargoConstants {
-        public static final double SMALL_CONTAINER_CARGO_VOLUME = 200;
-        public static final double MEDIUM_CONTAINER_CARGO_VOLUME = 300;
         public static final double BIG_CONTAINER_CARGO_VOLUME = 400;
 
         public static final double SMALL_CONTAINER_CARGO_CARCASE_MASS = 1000;
@@ -27,13 +25,7 @@ public class Constants {
     }
 
     public static class PlatformCargoConstants{
-        public static final double SMALL_ITEM_MASS = 1200;
-        public static final double MEDIUM_ITEM_MASS = 2300;
         public static final double BIG_ITEM_MASS = 1400;
-
-        public static final ContainerCargo IRON_CARGO = new ContainerCargo(500, HardMaterial.IRON);
-        public static final ContainerCargo COAL_CARGO = new ContainerCargo(250, HardMaterial.COAL);
-        public static final CisternCargo WATER_CARGO = new CisternCargo(600, LiquidMaterial.WATER);
     }
 
     public class PassengerConstants{
