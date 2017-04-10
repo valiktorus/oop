@@ -22,7 +22,7 @@ public class PassengerImpl implements Passenger {
 
     @Override
     public String getInfo() {
-        return getClass().getSimpleName() + ";" + name ;
+        return "passenger" + ";" + name ;
     }
     @Override
     public String toString() {

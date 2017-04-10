@@ -8,4 +8,5 @@ public class CisternCargo extends StandardizedCargo {
     public CisternCargo(double containerMass, double volume, LiquidMaterial material) {
         super(containerMass, volume, material);
     }
+
 }

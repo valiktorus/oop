@@ -13,4 +13,9 @@ public class PlatformCargo extends AbstractCargo {
     public double getCargoMass() {
         return mass;
     }
+
+    @Override
+    public String toString() {
+        return "Platform " + mass;
+    }
 }

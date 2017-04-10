@@ -6,10 +6,11 @@ import by.gsu.epamlab.transportation.cargo.impl.PlatformCargo;
 import by.gsu.epamlab.transportation.passenger.Passenger;
 
 public enum TransportableType {
-    PASSENGER(Passenger.class),
-    CONTAINER_CARGO(ContainerCargo.class),
+    PLATFORM_CARGO(PlatformCargo.class),
     CISTERN_CARGO(CisternCargo.class),
-    PLATFORM_CARGO(PlatformCargo.class);
+    CONTAINER_CARGO(ContainerCargo.class),
+    PASSENGER(Passenger.class);
+
 
     private final Class transportableClass;
 
