@@ -16,11 +16,11 @@ public class ContainerCargoTransportation extends StandardCargoTransportation {
 
     @Override
     public double getFinalMass() {
-        return 0;
+        return cargo.getMass() + getCarcaseMass();
     }
 
     @Override
-    public String toString() {
-        return cargo + ";" + getFinalMass();
+    public String fieldsToString() {
+        return cargo.toString();
     }
 }

@@ -21,7 +21,7 @@ public class PlatformCargoTransportation extends AbstractCargoTransportation{
     }
 
     @Override
-    public String toString() {
-        return Arrays.toString(cargos) + ";" + getFinalMass();
+    public String fieldsToString() {
+        return Arrays.toString(cargos);
     }
 }

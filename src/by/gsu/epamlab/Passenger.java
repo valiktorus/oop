@@ -1,14 +1,14 @@
 package by.gsu.epamlab;
 
-public class Passanger implements Transportable {
+public class Passenger implements Transportable {
     private String name;
     private double mass;
 
-    public Passanger() {
+    public Passenger() {
         super();
     }
 
-    public Passanger(String name, double mass) {
+    public Passenger(String name, double mass) {
         this.name = name;
         this.mass = mass;
     }
@@ -20,6 +20,6 @@ public class Passanger implements Transportable {
 
     @Override
     public String toString() {
-        return name + ";" + mass;
+        return  getClass().getSimpleName() + ";" + name + ";" + mass;
     }
 }
