@@ -1,6 +1,6 @@
 package by.gsu.epamlab.ferry;
 
-import by.gsu.epamlab.Transportable;
+import by.gsu.epamlab.transportation.Transportable;
 
 public class Ferry {
     private double carryingCapacity;

@@ -1,7 +1,5 @@
 package by.gsu.epamlab.transportation;
 
-import by.gsu.epamlab.Transportable;
-
 import java.util.Comparator;
 
 public class TransportableComparator implements Comparator<Transportable> {

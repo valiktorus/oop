@@ -1,6 +1,5 @@
 package by.gsu.epamlab.transportation;
 
-import by.gsu.epamlab.Transportable;
 import by.gsu.epamlab.transportation.cargo.impl.CisternCargo;
 import by.gsu.epamlab.transportation.cargo.impl.ContainerCargo;
 import by.gsu.epamlab.transportation.cargo.impl.PlatformCargo;

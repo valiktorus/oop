@@ -1,6 +1,6 @@
 package by.gsu.epamlab.util;
 
-import by.gsu.epamlab.Transportable;
+import by.gsu.epamlab.transportation.Transportable;
 
 public class TransportableUtil {
     private TransportableUtil() {

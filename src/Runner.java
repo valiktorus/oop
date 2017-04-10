@@ -22,7 +22,7 @@ public class Runner {
 
         Arrays.sort(ferry.getTransportables(), new TransportableComparator());
 
-        ferry.printTransportables();
+        TransportableUtil.printTranspotrable(ferry.getTransportables());
 
         System.out.println(ferry.isPassed() ? "A ferry can transport cargo" : "A ferry can not transport cargo");
     }

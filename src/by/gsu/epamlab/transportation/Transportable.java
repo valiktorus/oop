@@ -1,4 +1,4 @@
-package by.gsu.epamlab;
+package by.gsu.epamlab.transportation;
 
 public interface Transportable {
     double getMass();
