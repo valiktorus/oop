@@ -4,8 +4,7 @@ public abstract class AbstractCargo {
     private final double volume;
 
     public AbstractCargo() {
-        super();
-        volume = 0;
+        this(0);
     }
 
     public AbstractCargo(double volume) {
