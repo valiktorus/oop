@@ -2,29 +2,27 @@ package by.gsu.epamlab.cargo;
 
 public abstract class AbstractCargo {
     private final double volume;
+    private final Material material;
 
     public AbstractCargo() {
         this(0);
     }
 
     public AbstractCargo(double volume) {
-        this.volume = volume;
+        this(volume, HardMaterial.EMPTY);
     }
 
-    public double getVolume() {
-        return volume;
+    public AbstractCargo(double volume, Material material) {
+        this.volume = volume;
+        this.material = material;
     }
 
     public double getMass(){
-        return volume * getDensity();
+        return volume * material.getDensity();
     }
-
-    public abstract double getDensity();
-
-    protected abstract String fieldsToString();
 
     @Override
     public String toString() {
-        return fieldsToString() + ";" + volume;
+        return material.toString() + ";" + volume;
     }
 }

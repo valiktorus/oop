@@ -1,7 +1,7 @@
 package by.gsu.epamlab.cargo;
 
-public enum HardMaterial {
-    COAL(1450.0),IRON(7800.0),COOPER(8900.0),PLUMB(11340.0);
+public enum HardMaterial implements Material{
+    COAL(1450.0),IRON(7800.0),COOPER(8900.0),PLUMB(11340.0),EMPTY(0);
 
     private final double density;
 
@@ -9,10 +9,11 @@ public enum HardMaterial {
         this.density = density;
     }
 
+    @Override
     public String getName(){
         return name().toLowerCase();
     }
-
+    @Override
     public double getDensity() {
         return density;
     }
