@@ -6,6 +6,7 @@ public abstract class AbstractCargo  implements Cargo{
     public AbstractCargo(double containerMass) {
         this.containerMass = containerMass;
     }
+
     public abstract double getCargoMass();
 
     @Override
