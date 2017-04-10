@@ -18,7 +18,7 @@ public class LiquidCargo extends AbstractCargo{
     }
 
     @Override
-    public String toString() {
-        return material.name().toLowerCase();
+    protected String fieldsToString() {
+        return material.toString();
     }
 }

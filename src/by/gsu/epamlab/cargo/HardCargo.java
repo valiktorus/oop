@@ -18,7 +18,7 @@ public class HardCargo extends AbstractCargo {
     }
 
     @Override
-    public String toString() {
-        return material.getName().toLowerCase();
+    protected String fieldsToString() {
+        return material.toString();
     }
 }

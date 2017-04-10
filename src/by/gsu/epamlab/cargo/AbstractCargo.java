@@ -17,4 +17,11 @@ public abstract class AbstractCargo {
     }
 
     public abstract double getMass();
+
+    protected abstract String fieldsToString();
+
+    @Override
+    public String toString() {
+        return fieldsToString() + ";" + volume;
+    }
 }
