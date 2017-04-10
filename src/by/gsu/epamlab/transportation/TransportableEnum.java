@@ -1,4 +1,4 @@
-package by.gsu.epamlab.cargotransportation;
+package by.gsu.epamlab.transportation;
 
 /**
  * Created by Torus on 10.04.2017.

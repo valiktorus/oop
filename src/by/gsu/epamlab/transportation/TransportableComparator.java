@@ -1,4 +1,4 @@
-package by.gsu.epamlab.cargotransportation;
+package by.gsu.epamlab.transportation;
 
 import by.gsu.epamlab.Transportable;
 

@@ -1,5 +1,5 @@
 import by.gsu.epamlab.ferry.Ferry;
-import by.gsu.epamlab.cargotransportation.TransportableComparator;
+import by.gsu.epamlab.transportation.TransportableComparator;
 
 import java.util.Arrays;
 

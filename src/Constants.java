@@ -1,7 +1,7 @@
-import by.gsu.epamlab.cargotransportation.CisternCargoTransportation;
-import by.gsu.epamlab.cargotransportation.ContainerCargoTransportation;
+import by.gsu.epamlab.transportation.CisternCargoTransportation;
+import by.gsu.epamlab.transportation.ContainerCargoTransportation;
 import by.gsu.epamlab.passenger.Passenger;
-import by.gsu.epamlab.cargotransportation.PlatformCargoTransportation;
+import by.gsu.epamlab.transportation.PlatformCargoTransportation;
 import by.gsu.epamlab.cargo.HardCargo;
 import by.gsu.epamlab.cargo.HardMaterial;
 import by.gsu.epamlab.cargo.LiquidCargo;
