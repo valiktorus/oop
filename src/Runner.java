@@ -1,5 +1,5 @@
 import by.gsu.epamlab.Ferry;
-import by.gsu.epamlab.FerryComparator;
+import by.gsu.epamlab.TransportableComparator;
 
 import java.util.Arrays;
 
@@ -19,7 +19,7 @@ public class Runner {
         );
         ferry.printTransportables();
 
-        Arrays.sort(ferry.getTransportables(), new FerryComparator());
+        Arrays.sort(ferry.getTransportables(), new TransportableComparator());
 
         ferry.printTransportables();
 
