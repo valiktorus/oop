@@ -1,6 +1,6 @@
-package by.gsu.epamlab.passenger.impl;
+package by.gsu.epamlab.transportation.passenger.impl;
 
-import by.gsu.epamlab.passenger.Passenger;
+import by.gsu.epamlab.transportation.passenger.Passenger;
 
 public class PassengerImpl implements Passenger {
     private String name;

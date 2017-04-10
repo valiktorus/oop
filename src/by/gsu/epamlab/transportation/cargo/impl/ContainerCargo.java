@@ -1,5 +1,6 @@
-package by.gsu.epamlab.transportation;
+package by.gsu.epamlab.transportation.cargo.impl;
 
+import by.gsu.epamlab.transportation.cargo.StandardizedCargo;
 import by.gsu.epamlab.material.impl.HardMaterial;
 
 public class ContainerCargo extends StandardizedCargo {

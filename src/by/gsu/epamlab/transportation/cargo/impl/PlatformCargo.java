@@ -1,6 +1,8 @@
-package by.gsu.epamlab.transportation;
+package by.gsu.epamlab.transportation.cargo.impl;
 
-public class PlatformCargo extends AbstractCargo{
+import by.gsu.epamlab.transportation.cargo.AbstractCargo;
+
+public class PlatformCargo extends AbstractCargo {
     private final double mass;
 
     public PlatformCargo(double containerMass, double mass) {

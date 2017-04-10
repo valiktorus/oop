@@ -1,7 +1,10 @@
 package by.gsu.epamlab.transportation;
 
 import by.gsu.epamlab.Transportable;
-import by.gsu.epamlab.passenger.Passenger;
+import by.gsu.epamlab.transportation.cargo.impl.CisternCargo;
+import by.gsu.epamlab.transportation.cargo.impl.ContainerCargo;
+import by.gsu.epamlab.transportation.cargo.impl.PlatformCargo;
+import by.gsu.epamlab.transportation.passenger.Passenger;
 
 public enum TransportableType {
     PASSENGER(Passenger.class),

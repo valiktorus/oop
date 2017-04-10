@@ -1,5 +1,6 @@
 import by.gsu.epamlab.ferry.Ferry;
 import by.gsu.epamlab.transportation.TransportableComparator;
+import by.gsu.epamlab.util.TransportableUtil;
 
 import java.util.Arrays;
 
@@ -17,7 +18,7 @@ public class Runner {
                 Constants.SECOND_PASSENGER_IMPL,
                 Constants.THIRD_PASSENGER_IMPL
         );
-        ferry.printTransportables();
+        TransportableUtil.printTranspotrable(ferry.getTransportables());
 
         Arrays.sort(ferry.getTransportables(), new TransportableComparator());
 

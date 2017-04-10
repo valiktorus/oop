@@ -1,6 +1,4 @@
-package by.gsu.epamlab.transportation;
-
-import by.gsu.epamlab.Cargo;
+package by.gsu.epamlab.transportation.cargo;
 
 public abstract class AbstractCargo  implements Cargo{
     private final double containerMass;
