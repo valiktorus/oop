@@ -1,5 +1,8 @@
 package by.gsu.epamlab.cargo;
 
+import by.gsu.epamlab.material.impl.HardMaterial;
+import by.gsu.epamlab.material.Material;
+
 public abstract class AbstractCargo {
     private final double volume;
     private final Material material;

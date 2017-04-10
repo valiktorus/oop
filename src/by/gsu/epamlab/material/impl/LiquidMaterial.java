@@ -1,11 +1,12 @@
-package by.gsu.epamlab.cargo;
+package by.gsu.epamlab.material.impl;
 
-public enum HardMaterial implements Material{
-    COAL(1450.0),IRON(7800.0),COOPER(8900.0),PLUMB(11340.0),EMPTY(0);
+import by.gsu.epamlab.material.Material;
 
+public enum LiquidMaterial implements Material {
+    WATER(1000.0), PETROL(900.0), GASOLINE(700.0), PARAFFIN(800.0),EMPTY(0);
     private final double density;
 
-    HardMaterial(double density) {
+    LiquidMaterial(double density) {
         this.density = density;
     }
 
@@ -13,6 +14,7 @@ public enum HardMaterial implements Material{
     public String getName(){
         return name().toLowerCase();
     }
+
     @Override
     public double getDensity() {
         return density;

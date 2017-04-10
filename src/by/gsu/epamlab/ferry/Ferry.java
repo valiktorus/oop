@@ -6,15 +6,15 @@ public class Ferry {
     private double carryingCapacity;
     private Transportable[] transportables;
 
-    public Transportable[] getTransportables() {
-        return transportables;
-    }
-
-
     public Ferry(double carryingCapacity, Transportable... transportables) {
         this.carryingCapacity = carryingCapacity;
         this.transportables = transportables;
     }
+
+    public Transportable[] getTransportables() {
+        return transportables;
+    }
+
     public boolean isPassed(){
         return carryingCapacity > getTotalMass();
     }
@@ -25,10 +25,5 @@ public class Ferry {
             totalMass += transportable.getMass();
         }
         return totalMass;
-    }
-    public void printTransportables(){
-        for (Transportable transportable: transportables) {
-            System.out.println(transportable);
-        }
     }
 }

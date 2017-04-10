@@ -1,5 +1,7 @@
 package by.gsu.epamlab.cargo;
 
+import by.gsu.epamlab.material.impl.LiquidMaterial;
+
 public class LiquidCargo extends AbstractCargo{
     private LiquidMaterial material;
 

@@ -13,9 +13,9 @@ public class Runner {
                 Constants.COAL_CONTAINER_CARGO,
                 Constants.COOPER_CONTAINER_CARGO,
                 Constants.FIRST_PLATFORM_CARGO,
-                Constants.FIRST_PASSENGER,
-                Constants.SECOND_PASSENGER,
-                Constants.THIRD_PASSENGER
+                Constants.FIRST_PASSENGER_IMPL,
+                Constants.SECOND_PASSENGER_IMPL,
+                Constants.THIRD_PASSENGER_IMPL
         );
         ferry.printTransportables();
 

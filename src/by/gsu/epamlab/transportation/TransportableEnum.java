@@ -1,5 +1,0 @@
-package by.gsu.epamlab.transportation;
-
-public enum  TransportableEnum {
-    PASSENGER, CONTAINERCARGOTRANSPORTATION, CISTERNCARGOTRANSPORTATION, PLATFORMCARGOTRANSPORTATION;
-}

@@ -1,11 +1,8 @@
-import by.gsu.epamlab.transportation.CisternCargoTransportation;
-import by.gsu.epamlab.transportation.ContainerCargoTransportation;
-import by.gsu.epamlab.passenger.Passenger;
-import by.gsu.epamlab.transportation.PlatformCargoTransportation;
+import by.gsu.epamlab.passenger.impl.PassengerImpl;
 import by.gsu.epamlab.cargo.HardCargo;
-import by.gsu.epamlab.cargo.HardMaterial;
+import by.gsu.epamlab.material.impl.HardMaterial;
 import by.gsu.epamlab.cargo.LiquidCargo;
-import by.gsu.epamlab.cargo.LiquidMaterial;
+import by.gsu.epamlab.material.impl.LiquidMaterial;
 
 public class Constants {
     public class CisternCargo{
@@ -41,26 +38,26 @@ public class Constants {
     }
 
 
-    public static final CisternCargoTransportation WATER_CISTERN_CARGO = new CisternCargoTransportation(
-            CisternCargo.SMALL_CISTERN_CARGO_CARCASE_MASS, new LiquidCargo(CisternCargo.SMALL_CISTERN_CARGO_VOLUME, LiquidMaterial.WATER));
-    public static final CisternCargoTransportation GASOLINE_CISTERN_CARGO = new CisternCargoTransportation(
-            CisternCargo.MEDIUM_CISTERN_CARGO_CARCASE_MASS, new LiquidCargo(CisternCargo.MEDIUM_CISTERN_CARGO_VOLUME, LiquidMaterial.GASOLINE));
-    public static final CisternCargoTransportation PETROL_CISTERN_CARGO = new CisternCargoTransportation(
-            CisternCargo.BIG_CISTERN_CARGO_CARCASE_MASS, new LiquidCargo(CisternCargo.BIG_CISTERN_CARGO_VOLUME, LiquidMaterial.PETROL));
+    public static final by.gsu.epamlab.transportation.CisternCargo WATER_CISTERN_CARGO = new by.gsu.epamlab.transportation.CisternCargo(
+            Constants.CisternCargo.SMALL_CISTERN_CARGO_CARCASE_MASS, new LiquidCargo(Constants.CisternCargo.SMALL_CISTERN_CARGO_VOLUME, LiquidMaterial.WATER));
+    public static final by.gsu.epamlab.transportation.CisternCargo GASOLINE_CISTERN_CARGO = new by.gsu.epamlab.transportation.CisternCargo(
+            Constants.CisternCargo.MEDIUM_CISTERN_CARGO_CARCASE_MASS, new LiquidCargo(Constants.CisternCargo.MEDIUM_CISTERN_CARGO_VOLUME, LiquidMaterial.GASOLINE));
+    public static final by.gsu.epamlab.transportation.CisternCargo PETROL_CISTERN_CARGO = new by.gsu.epamlab.transportation.CisternCargo(
+            Constants.CisternCargo.BIG_CISTERN_CARGO_CARCASE_MASS, new LiquidCargo(Constants.CisternCargo.BIG_CISTERN_CARGO_VOLUME, LiquidMaterial.PETROL));
 
-    public static final ContainerCargoTransportation IRON_CONTAINER_CARGO = new ContainerCargoTransportation(
-            ContainerCargo.SMALL_CONTAINER_CARGO_CARCASE_MASS,new HardCargo(ContainerCargo.SMALL_CONTAINER_CARGO_VOLUME, HardMaterial.IRON));
-    public static final ContainerCargoTransportation COAL_CONTAINER_CARGO = new ContainerCargoTransportation(
-            ContainerCargo.MEDIUM_CONTAINER_CARGO_CARCASE_MASS, new HardCargo(ContainerCargo.MEDIUM_CONTAINER_CARGO_VOLUME,HardMaterial.COAL));
-    public static final ContainerCargoTransportation COOPER_CONTAINER_CARGO = new ContainerCargoTransportation(
-            ContainerCargo.BIG_CONTAINER_CARGO_CARCASE_MASS, new HardCargo(ContainerCargo.BIG_CONTAINER_CARGO_VOLUME, HardMaterial.COOPER));
+    public static final by.gsu.epamlab.transportation.ContainerCargo IRON_CONTAINER_CARGO = new by.gsu.epamlab.transportation.ContainerCargo(
+            Constants.ContainerCargo.SMALL_CONTAINER_CARGO_CARCASE_MASS,new HardCargo(Constants.ContainerCargo.SMALL_CONTAINER_CARGO_VOLUME, HardMaterial.IRON));
+    public static final by.gsu.epamlab.transportation.ContainerCargo COAL_CONTAINER_CARGO = new by.gsu.epamlab.transportation.ContainerCargo(
+            Constants.ContainerCargo.MEDIUM_CONTAINER_CARGO_CARCASE_MASS, new HardCargo(Constants.ContainerCargo.MEDIUM_CONTAINER_CARGO_VOLUME,HardMaterial.COAL));
+    public static final by.gsu.epamlab.transportation.ContainerCargo COOPER_CONTAINER_CARGO = new by.gsu.epamlab.transportation.ContainerCargo(
+            Constants.ContainerCargo.BIG_CONTAINER_CARGO_CARCASE_MASS, new HardCargo(Constants.ContainerCargo.BIG_CONTAINER_CARGO_VOLUME, HardMaterial.COOPER));
 
-    public static final PlatformCargoTransportation FIRST_PLATFORM_CARGO = new PlatformCargoTransportation(
-            PlatformCargo.IRON_CARGO, PlatformCargo.COAL_CARGO, PlatformCargo.WATER_CARGO);
+    public static final by.gsu.epamlab.transportation.PlatformCargo FIRST_PLATFORM_CARGO = new by.gsu.epamlab.transportation.PlatformCargo(
+            Constants.PlatformCargo.IRON_CARGO, Constants.PlatformCargo.COAL_CARGO, Constants.PlatformCargo.WATER_CARGO);
 
-    public static final Passenger FIRST_PASSENGER = new Passenger(PassengerConstants.FIRST_PASSENGER_NAME, PassengerConstants.FIRST_PASSENGER_MASS);
-    public static final Passenger SECOND_PASSENGER = new Passenger(PassengerConstants.SECOND_PASSENGER_NAME, PassengerConstants.SECOND_PASSENGER_MASS);
-    public static final Passenger THIRD_PASSENGER = new Passenger(PassengerConstants.THIRD_PASSENGER_NAME, PassengerConstants.THIRD_PASSENGER_MASS);
+    public static final PassengerImpl FIRST_PASSENGER_IMPL = new PassengerImpl(PassengerConstants.FIRST_PASSENGER_NAME, PassengerConstants.FIRST_PASSENGER_MASS);
+    public static final PassengerImpl SECOND_PASSENGER_IMPL = new PassengerImpl(PassengerConstants.SECOND_PASSENGER_NAME, PassengerConstants.SECOND_PASSENGER_MASS);
+    public static final PassengerImpl THIRD_PASSENGER_IMPL = new PassengerImpl(PassengerConstants.THIRD_PASSENGER_NAME, PassengerConstants.THIRD_PASSENGER_MASS);
 
     public static final double CARRYING_CAPACITY = 50000000.0;
 
